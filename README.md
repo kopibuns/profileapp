@@ -1,8 +1,17 @@
-# React + Vite
+Introduction:
+The app allows users to sign up, with their email addresses captured and saved in a database. It features a React frontend hosted on AWS, integrates authentication, data storage, and a serverless function to manage user sign-ups.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prerequisites:
+Before running this application, ensure you have:
+1. An AWS account
+2. Your AWS profile configured for local development
+3. Node.js and npm installed
 
-Currently, two official plugins are available:
+Run the app:
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deploy the App with AWS Amplify:
+1. Open AWS Management Console:
+2. Create a New App
+3. Connect to GitHub
+4. Deploy
